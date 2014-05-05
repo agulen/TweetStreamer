@@ -1,0 +1,72 @@
+body
+{
+	font-family: Arial, sans-serif;
+}
+
+h1
+{
+	text-align: center;
+}
+
+#tweetDisplay
+{
+	width: 100%;
+	height: 800px;
+	margin-top: 30px;
+}
+
+#description
+{
+	text-align: center;
+}
+
+#systemStatus
+{	
+	visibility: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-radius: 100px;
+	border-color: black;
+	border-width: 2px;
+	background-color: cornflowerblue;
+	text-align: center;
+	margin-top: 50px;
+	width: 40%;
+}
+
+#buttonTable
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button
+{
+	margin: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+button:active
+{
+	margin: 10px;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+	font-size: 18px;	
+	box-shadow: inset 0 2px 8px gray;
+}
+
+#buttonContainer 
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 425px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: cornflowerblue;
+}

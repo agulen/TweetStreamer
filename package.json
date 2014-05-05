@@ -1,0 +1,9 @@
+{
+  "name": "lab8",
+  "description": "lab8 for websci class",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.0"
+  }
+}

@@ -1,0 +1,114 @@
+body {
+	font-family: 'Exo 2', sans-serif;
+	background: #E6E6E6;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#timezones
+{
+	display: block;
+	background: #CCD6E0;
+	height: 200px;
+}
+
+.eachTimezone
+{
+	background: #FFA3A3;
+	color: black;
+	margin: 10px;	
+}
+
+#tweets
+{
+	display: block;
+	background: #CCD6E0;
+	height: 450px;
+}
+
+.eachTweet
+{
+	background: #55ACEE;	
+	color: white;
+	margin: 10px;
+}
+
+#charts
+{
+	margin: 10px;
+}
+
+#characterCountChart
+{
+	margin-top: 10px;
+}
+
+#languageChart
+{
+	margin-top: 10px;
+}
+
+@media (min-width: 768px) { 
+	#timezones {	
+		width: 20%;		
+		height: auto;
+		float: left;
+		background: #CCD6E0;
+	}
+
+	#twitterStream {
+		display: block;
+		height: 400px;
+		float: left;
+		width: 100%;
+	}
+
+	#tweets {	
+		width:80%;	
+		height: auto;
+		float: left;	
+		background: #CCD6E0;	
+	}	
+
+	#charts {
+		margin-left: auto;
+		margin-right: auto;		
+	}
+
+	#hashTagChart
+	{
+		float: left;	
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 400px;
+		height: 250px;
+	}
+
+	#characterCountChart
+	{
+		float: left;
+		margin-left: 10px;	
+		margin-top: 10px;
+		width: 400px;
+		height: 250px;
+	}
+
+	#languageChart
+	{
+		float: left;
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 400px;
+		height: 250px;
+	}
+}

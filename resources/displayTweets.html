@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Web Science Lab 8</title>		
+		<link href='http://fonts.googleapis.com/css?family=Exo+2:300' rel='stylesheet' type='text/css'>		
+		<link rel="stylesheet" type="text/css" href="displayTweets.css">
+		<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="databaseTweets.js"></script>
+		<script type="text/javascript" src="displayTweets.js"></script>
+		<script type="text/javascript">
+
+		</script>
+
+	</head>
+
+	<body>
+		<div id="overall">
+			<h1>Tweet Visualization</h1>
+			<div id="twitterStream">
+				<div id="timezones">
+					<h2> Tweeting Time Zones </h2>
+					<div id="h0" class="eachTimezone"></div>
+					<div id="h1" class="eachTimezone"></div>
+					<div id="h2" class="eachTimezone"></div>
+					<div id="h3" class="eachTimezone"></div>
+					<div id="h4" class="eachTimezone"></div>
+				</div>
+				<div id="tweets">
+					<h2> Tweets </h2>
+					<div id="t0" class="eachTweet"></div>
+					<div id="t1" class="eachTweet"></div>
+					<div id="t2" class="eachTweet"></div>
+					<div id="t3" class="eachTweet"></div>
+					<div id="t4" class="eachTweet"></div>
+				</div>
+			</div>	
+			<div id="charts">
+				<div id="hashTagChart"></div>
+				<div id="characterCountChart"></div>
+				<div id="languageChart"></div>
+			</div>
+		</div>
+	</body>
+</html>

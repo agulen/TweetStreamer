@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<title>Lab 8</title>
+	<meta charset="utf-8">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="lab8client.js"></script>	
+	<link rel="stylesheet" type="text/css" href="lab8.css" />
+</head>
+<body>
+	<h1>Altan Gulen - Tweet Streamer</h1>		
+	<div id="buttonContainer">
+		<table id="buttonTable">
+			<tr>
+				<td>
+					<form method="post" action="buildJSON">
+						<button name="build" value="build" type="submit">Build JSON File</button>
+					</form>
+				</td>
+				<td>
+					<form method="post" action="convert">
+						<button name="convert" value="convert">Convert to CSV</button>
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form method="post" action="buildDB">
+						<button name="database" type="submit">Build Database</button>
+					</form>
+				</td>
+				<td>
+					<form method="post" action="read">
+						<button name="read" type="submit"> Read Tweets  </button>
+					</form>
+				</td>
+			</tr>
+		</table>	
+	</div>	
+	<!--<iframe id="tweetDisplay" src="displayTweets.html"></iframe>-->
+</body>
+</html>
